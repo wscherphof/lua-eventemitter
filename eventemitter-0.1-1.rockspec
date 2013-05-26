@@ -20,6 +20,6 @@ build = {
   type = "builtin",
   copy_directories = {"doc", "tst"},
   modules = {
-    ["EventEmiter.init"] = "src/EventEmitter/init.lua"
+    ["EventEmitter.init"] = "src/EventEmitter/init.lua"
   }
 }
