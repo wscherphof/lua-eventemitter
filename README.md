@@ -24,6 +24,10 @@ Or spray EventEmitter on your existing object
 local obj = {}
 EventEmitter:new(obj)
 ```
+Or on your newly created object
+```lua
+local obj = EventEmitter:new(ThatOtherType:new())
+```
 Let your object emit a named event on certain conditions
 ```lua
 function obj:action ()
